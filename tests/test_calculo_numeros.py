@@ -5,7 +5,7 @@ from src.exceptions import (
 )
 from unittest.mock import patch
 class TestCalculoNumeros(unittest.TestCase):
-    @patch(  # este patch controla lo que hace el input
+    @patch(  # este patch controla lo que hace el input  #bien#
         'builtins.input',
         return_value='100'
     )
